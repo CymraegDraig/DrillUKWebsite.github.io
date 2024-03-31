@@ -21,31 +21,31 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223729806563217478/btaGp2m.png?ex=661aea31&is=66087531&hm=c70cd515c4f5da792b274dd23fd3a83c62c2db1d3c1961143f7ef3d7a5087498&",
+                skinUrlOrPathToFile: "images/Staff/MB.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
                 inGameName: "Spartan",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "https://media.discordapp.net/attachments/656919561785966644/1223729807137706044/KUcUzDc.png?ex=661aea31&is=66087531&hm=cc200d4d5e7d37606205c08953fd89d2bd3e6a381dc01c382b89865c7c783886&=&format=webp&quality=lossless&width=182&height=182",
+                skinUrlOrPathToFile: "images/Staff/Spartan.png",
                 rankColor: ""
             },
             {
                 inGameName: "Stevie",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "https://media.discordapp.net/attachments/656919561785966644/1223729806869528606/KExfMTw.png?ex=661aea31&is=66087531&hm=fed26b09b854922e3dc36c19ef27de82fd28291bb9431ca58a118cb19cb2bc0f&=&format=webp&quality=lossless&width=448&height=448",
+                skinUrlOrPathToFile: "images/Staff/Stevie.png",
                 rankColor: ""
             },
             {
                 inGameName: "UKTriggs",
                 rank: "General Manager",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223732824541237278/g4pZacg.png?ex=661aed01&is=66087801&hm=79f98bb3633b803f290f39e59a072cfcfc3128e8b3d1ac7161d0256df45b17a1&",
+                skinUrlOrPathToFile: "images/Staff/UKTriggs.png",
                 rankColor: ""
             },
             {
                 inGameName: "SL0TH",
                 rank: "Head of Development",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223730447637282918/z2TiU4g.png?ex=661aeaca&is=660875ca&hm=6604702186e64e7f7ed2fd34ec0e762cef604553425bff5a321c37cb587d4c14&",
+                skinUrlOrPathToFile: "images/Staff/Sloth.png",
                 rankColor: ""
             },
         ],
@@ -53,25 +53,25 @@ const config = {
             {
                 inGameName: "Ghost",
                 rank: "Developer",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223731269632917564/tTFocOo.gif?ex=661aeb8e&is=6608768e&hm=2580e73153957f4d2a5cab4b921fab2f75c6df676d81a78582320982593da611&",
+                skinUrlOrPathToFile: "images/Staff/Ghost.gif",
                 rankColor: ""
             },
             {
                 inGameName: "ST4R_OPTIC",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223731436448911490/QEeILeG.png?ex=661aebb6&is=660876b6&hm=e0817cb13a38ae366692ba3550120151610ec1d9ae9dd2f765efefedd2a42ef5&",
+                skinUrlOrPathToFile: "images/Staff/ST4R.png",
                 rankColor: ""
             },
             {
                 inGameName: "Clarky",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223731819170500648/Mp9QLrC.png?ex=661aec11&is=66087711&hm=1a659378bf139a4da613c61b56297fe35fbcb49f17ab2ea56a721908bf15ac6b&",
+                skinUrlOrPathToFile: "images/Staff/Clarky.png",
                 rankColor: ""
             },
             {
                 inGameName: "Trix",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223732304732622941/1HzyWGG.gif?ex=661aec85&is=66087785&hm=bf86663404cab0dfd623a3dcce48f20f3c2a2e304396aabbbdcda10e3b2ec6d0&",
+                skinUrlOrPathToFile: "images/Staff/Trix.png",
                 rankColor: ""
             }
         ],
@@ -79,37 +79,37 @@ const config = {
             {
                 inGameName: "DavidUGUK",
                 rank: "Head of Organisation",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223733825696436334/VrQn00a.png?ex=661aedef&is=660878ef&hm=dcbb7b26796b0ed583d26298bc8fb2bf2c08c9a8da2bb1727f4baef189ca04e9&",
+                skinUrlOrPathToFile: "images/Staff/David.png",
                 rankColor: ""
             },
             {
                 inGameName: "Malia",
                 rank: "Head of Staff",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223733827608907826/IzCPgEl.png?ex=661aedf0&is=660878f0&hm=b3203513a960a0a1027080f291823437b5901c2246590077aa707d7149f0a3bc&",
+                skinUrlOrPathToFile: "images/Staff/Malia.png",
                 rankColor: ""
             },
             {
                 inGameName: "AlmightyBizzle",
                 rank: "Head of Staff",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223733827378352158/BhF8Uue.png?ex=661aedf0&is=660878f0&hm=436c2b18d23093d872249b23f886201a708942354b759c9f7a91e0cdd9af5d64&",
+                skinUrlOrPathToFile: "images/Staff/Bizzle.png",
                 rankColor: ""
             },
             {
                 inGameName: "Momo",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223733826887487558/pWHfbnn.png?ex=661aedf0&is=660878f0&hm=2a2e7f9a36efc47bd845b0d711d8be6b6d77da599963ee74ad9023b89ae91446&",
+                skinUrlOrPathToFile: "images/Staff/Momo.png",
                 rankColor: ""
             },
             {
                 inGameName: "Jacob Drazo",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223733825981386954/UUhtTm6.png?ex=661aedef&is=660878ef&hm=29b976d6b5551d9d14649396f81db0be0cdaf1837538dc63a289e5ec2581cd93&",
+                skinUrlOrPathToFile: "images/Staff/Drazo.png",
                 rankColor: ""
             },
             {
                 inGameName: "Slaxie",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223734110741332149/55Q6lyf.png?ex=661aee33&is=66087933&hm=bed01dfe1798e5f4bd066cc499cdc138f612c0650ce9d1118e29a76345577fa7&",
+                skinUrlOrPathToFile: "images/Staff/Slaxie.png",
                 rankColor: ""
             },
         ],
@@ -117,37 +117,37 @@ const config = {
             {
                 inGameName: "Trix",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://cdn.discordapp.com/attachments/656919561785966644/1223732304732622941/1HzyWGG.gif?ex=661aec85&is=66087785&hm=bf86663404cab0dfd623a3dcce48f20f3c2a2e304396aabbbdcda10e3b2ec6d0&",
+                skinUrlOrPathToFile: "images/Staff/Trix.png",
                 rankColor: ""
             },
             {
                 inGameName: "Alpha Demon",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://lh3.googleusercontent.com/H2PL1kxL1-hkzGxdNb8K7D1P9xzOVdaf1AdAezpM90p28iTy3A0BoQqAs6M23u8K_pH5HzBVUwVBflSlKiXBJsk=w1280",
+                skinUrlOrPathToFile: "images/Staff/Alpha.png",
                 rankColor: ""
             },
             {
                 inGameName: "Hodges",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/vbdwwLZKGjqBWG3Vy_BTIFXesZ19BSqsvPgMM6sTcrkp8g3F5b9rf5cJv8_SbQkFihkfb9Ai_XmSx-ZiixMbByc=w1280",
+                skinUrlOrPathToFile: "images/Staff/Hodges.png",
                 rankColor: ""
             },
             {
                 inGameName: "Kyzerr",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/_AwkuycmRZFw5l8XAcUQTIbgu3hYScPGh_8EzTP1OuRSHAsiHav0Ma8Yx6EtSwEgGhkrexO2tV5lBkSGGI9VQRk=w1280",
+                skinUrlOrPathToFile: "images/Staff/Kyzerr.png",
                 rankColor: ""
             },
             {
                 inGameName: "Kitty",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/wz9wHfxvuVGn1AHLSNygjwR4OYv528egCPLd2rWByvwBU_26KMUWnhsnotOLW7YNVi99E1LP59dyXbHYOUxuLvw=w1280",
+                skinUrlOrPathToFile: "images/Staff/Kitty.gif",
                 rankColor: ""
             },
             {
                 inGameName: "Vexuix",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/vTcDmGRWVTSmoSDi_1sf2Gk1ClcZs6680AW-EpkG1x03kzqaY-QRBnTU39pSqXhq82wbNF2_spSmMyzy7wVZdx0=w1280",
+                skinUrlOrPathToFile: "images/Staff/Vexuix.gif",
                 rankColor: ""
             }
         ],
@@ -155,19 +155,19 @@ const config = {
             {
                 inGameName: "Baldy P",
                 rank: "Admin",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/hn5Md4hH6_bAO2kPMHMcCgPVqkXaGw32Y7opPYv3Z8b_kWUkDOYYwzZ7kV615LGusByCOhcEp9eKk5Mg5y3efVY=w1280",
+                skinUrlOrPathToFile: "images/Staff/Baldy.png",
                 rankColor: ""
             },
             {
                 inGameName: "Jeffries",
                 rank: "Admin",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/alWzDxELQuoSek5gmklZxU0OijiELbVqAyQANy9ET3mB-dekCHOa4cQWdaDOdsKigElN5C3Q5u6hlydbJ1g48S4=w1280",
+                skinUrlOrPathToFile: "images/Staff/Jeffries.png",
                 rankColor: ""
             },
             {
                 inGameName: "SK",
                 rank: "Admin",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/Gk4bOWyyTcmr8zjlYSszxwwXTAHJnxaEpdt6SfrKomtkci2pvqI2wM-VWDVk89dqvA3Th1gGP_w7z1KdTWEAiVg=w1280",
+                skinUrlOrPathToFile: "images/Staff/SK.png",
                 rankColor: ""
             },
         ],
@@ -175,37 +175,37 @@ const config = {
             {
                 inGameName: "Banksy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/hRGu20QruCzsF8FNmWa7snVrrbGFi-gQWQy-v6QWCWg3ijkp3GBI0qtlzrfzpm2nZFL61iB2UbGnYDMiPO6xzjk=w1280",
+                skinUrlOrPathToFile: "images/Staff/Banksy.png",
                 rankColor: ""
             },
             {
                 inGameName: "Hitchy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh3.googleusercontent.com/UIpiOfgWoA-G7XgI13z24UJbc6z1n2xGlsAvmAYWWfdh85w8G-UEUJ1n9lkcuTF5GjDnGk6pM8V2tg4r0wG9StU=w1280",
+                skinUrlOrPathToFile: "images/Staff/Hitchy.png",
                 rankColor: ""
             },
             {
                 inGameName: "Joeyy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/PeJ5CogKinN0PTjxhF2KCOWOcqUEZVmzrSbKACnjozxBJuLzByHb8wwPzOHOzM2ql2tc1UmAap2q3fzEZuXNzPU=w1280",
+                skinUrlOrPathToFile: "images/Staff/Joeyy.gif",
                 rankColor: ""
             },
             {
                 inGameName: "JS",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/sk7N-Q_4KZqBXxJQoVgS8yzf6yyDLP_HyYW14qbjG2LzwUl7ONPy2oQN8Phlqxag9fOfTSlZEkNNyJAejUYKzxQ=w1280",
+                skinUrlOrPathToFile: "images/Staff/JS.png",
                 rankColor: ""
             },
             {
                 inGameName: "Tommy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/bFV4pEqjMZcviL_DV-ZcUJgaz-B36IdrguVynpvUVAIr0EsXiwOhDX4gkShrajHwC8cd4dC25TQ_U3w1K_4ZeQ4=w1280",
+                skinUrlOrPathToFile: "images/Staff/Tommy.gif",
                 rankColor: ""
             },
             {
                 inGameName: "X",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/CkfRnqZKIMWSY6pMFP9LEmWwEVsFI2A2CpWmokWjME0542ZIsr0oK-lDQ95dp4B8w7pnGUzp86rLM0upWufl2LA=w1280",
+                skinUrlOrPathToFile: "images/Staff/X.png",
                 rankColor: ""
             },
         ],
@@ -213,31 +213,31 @@ const config = {
             {
                 inGameName: "Draig",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/ExxBKCnsxZL9cvjgnVf5tXPd9npfWbrpRc2zbVmlWPrLOYEAabYDzfnw_KwRW-c_d2hxDR4UyoCBvPhR6oqJZwo=w1280",
+                skinUrlOrPathToFile: "images/Staff/Draig.png",
                 rankColor: ""
             },
             {
                 inGameName: "ST4R_OPTIC",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/G5fRrSuYxP72et5TH8uVbMdjOaROWV8AJzpz0gItk0DdiOrv4Ljq-HRTEod9M9hzr3K57juv7UgMumwGFuXulHc=w1280",
+                skinUrlOrPathToFile: "images/Staff/ST4R.png",
                 rankColor: ""
             },
             {
                 inGameName: "KC",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/aFx5T6SS1Z1JyJfHggU_bgXPXZ8Nnif7r8C4UTz9jgPehOTjpara2aqXIH9VrzE359Kfp-hSCBI5EigVITHr9yw=w1280",
+                skinUrlOrPathToFile: "images/Staff/KC.gif",
                 rankColor: ""
             },
             {
                 inGameName: "Spicy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/DtlsJ1Ykhd1w4F-n7rCje2yYdDGZrW-yVEM4Uw9Jg7C2igqdJ9io8NOV-lZbi5CuCLwPkPtLLtUQcYaYnMttqWI=w1280",
+                skinUrlOrPathToFile: "images/Staff/Spicy.png",
                 rankColor: ""
             },
             {
                 inGameName: "Young Prodigy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "https://lh6.googleusercontent.com/Ft52cP5qrwOBKE-QtwuzrTdcuFMNOqOEhx1J2hbGfgsxRSdPjINgpRZTZ7yusTgk55jkMYb1R3fah2ilKEzNNkM=w1280",
+                skinUrlOrPathToFile: "images/Staff/Corben.png",
                 rankColor: ""
             },
         ],
@@ -245,37 +245,37 @@ const config = {
             {
                 inGameName: "Wheelybin",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/Sh7P8bz0gcAOkPsOdftDRc_2jOLbLuQnwREBFZK9JPCXRZNAObKTyDIMlxk6AmJ0RvfkQeheOhsfRLuA5aZ_vr8=w1280",
+                skinUrlOrPathToFile: "images/Staff/Wheelybin.png",
                 rankColor: ""
             },
             {
                 inGameName: "Tobs",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/TPyBkSfTtr9HN2gdw7Xr7QlAhCcD49YbZU-wL2A4CRq6KzSWrpRtuYUzmrpSl95cxWA3R7vMfYtHBmNg9OQSUcM=w1280",
+                skinUrlOrPathToFile: "images/Staff/Tobs.png",
                 rankColor: ""
             },
             {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh4.googleusercontent.com/E-jYf4LhpAKituyJjMS11z3nJo7jt6Nt8L-vvmL0ea99FWBj-czctcm9KBhbLUA9BajkEvEitt9qMntPlmcXhY0=w1280",
+                skinUrlOrPathToFile: "images/Staff/Coinflip.png",
                 rankColor: ""
             },
             {
                 inGameName: "Kev",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/c74EEJTVrZhaRwEBrfb1vsGQwK3doZttEe916MG1UH12hlwQF-Hcxk7c5dIq2XjcaRK0xi27bLSMRZdbzBVuUhA=w1280",
+                skinUrlOrPathToFile: "images/Staff/Kev.png",
                 rankColor: ""
             },
             {
                 inGameName: "Welshboy",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh3.googleusercontent.com/cDI3wB7iFDk60BGnwcVAY_zwDisVez5_42xo-xAo-Ai4jpclPWOtI1Jl65EbJUa1Lt2ZoXgcbcqadSkWABcnCQk=w1280",
+                skinUrlOrPathToFile: "images/Staff/Welshboy.png",
                 rankColor: ""
             },
             {
                 inGameName: "Bonesy",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "https://lh5.googleusercontent.com/WW4KlHzpzYQKyWND7e2Ei2N9KqR4AlI1rbW48bncFwmBcsp-t0K6_zikYKaRq6kb6N2lHm38P8LujHAANf7TzZg=w1280",
+                skinUrlOrPathToFile: "images/Staff/Bonesy.png",
                 rankColor: ""
             },
         ]
