@@ -126,14 +126,17 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
 }
 
 #staff-team .group .users .user img {
-    width: 150px; /* Set the width */
-    height: 150px; /* Set the height */
-    object-fit: cover; /* Maintain aspect ratio */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto; /* Center horizontally */
 }
 
 #staff-team .group .users .user .name {
@@ -141,6 +144,7 @@
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
+    text-align: center;
 }
 
 .rank {
@@ -151,12 +155,10 @@
 #staff-team .group .users .user .rank {
     color: var(--white-color);
     font-size: 17px;
-    width: fit-content;
     padding: 5px 10px;
     text-align: center;
     border-radius: 5px;
-    align-content: center;
-    align-items: center;
+    background: var(--default-rank-color);
 }
 
 .rank {
