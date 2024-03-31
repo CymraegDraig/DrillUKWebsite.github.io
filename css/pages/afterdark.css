@@ -85,7 +85,9 @@
 }
 
 #header .content .left .buttons .copy-ip {
-    background: var(--main-color);
+    background: var(--copy-ip-button-background);
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -129,12 +131,6 @@
     animation: float 4s ease-in-out infinite;
 }
 
-#header .content .right .afterdarkLogo {
-    width: 256px;
-    transform: translatey(0px);
-    animation: float 4s ease-in-out infinite;
-}
-
 #header .content .right .stats {
     display: flex;
     flex-direction: row;
@@ -154,7 +150,7 @@
 
 #header .content .right .stats .stat .icon {
     border-radius: 5px;
-    background: #57008a;
+    background: var(--stat-icon-background-2);
     padding: 10px;
     transition: .2s ease-in-out;
 }
@@ -401,7 +397,9 @@
 }
 
 #discord .content .join-discord {
-    background: var(--main-color);
+    background: var(--copy-ip-button-background);
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
     padding: 10px 30px;
     color: var(--white-color);
     font-size: 17px;
@@ -519,7 +517,7 @@
 
 #vote .content .links .link .link-description .icon {
     border-radius: 5px;
-    background: #35094e;
+    background: var(--stat-icon-background-2);
     padding: 10px;
     transition: 0.2s ease-in-out;
 }
@@ -656,24 +654,25 @@
 
 /*Responsive*/
 /*Header*/
+@media screen and (max-width: 1625px) {
+    #header .content {
+        padding: 150px 90px;
+        align-items: start;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 1361px) {
     #header .content {
         flex-direction: column;
         padding: 120px 90px;
         height: 100%;
         gap: 60px;
-        align-items: center; /* Center horizontally */
-        justify-content: center; /* Center vertically */
-    }
-
-    #header {
-        background: url("images/mobileheader.png") no-repeat fixed center;
     }
 
     #header .content .left {
         gap: 30px;
-        justify-content: center; /* Center items horizontally */
-        text-align: center; /* Center text horizontally */
+        justify-content: left;
     }
 
     #header .content .right .stats {
@@ -683,11 +682,63 @@
     #header .content .right .logo-img {
         display: none;
     }
+
+    @media screen and (min-height: 745px) {
+        #header .content {
+            justify-content: center;
+        }
+
+        #header .content .left {
+            height: fit-content;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        #header .content .right {
+            height: fit-content;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
 }
 
 @media screen and (max-width: 819px) {
     #header .content {
         padding: 150px 30px;
+    }
+
+    #header .content .left .server-name p {
+        font-size: 15px;
+    }
+
+    #header .content .left .server-name h1 {
+        font-size: 40px;
+    }
+
+    #header .content .left .server-description {
+        font-size: 16px;
+    }
+
+    #header .content .right {
+        width: 100%;
+    }
+
+    #header .content .right .stats {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    #header .content .right .stats {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    #header .content .right .stats .stat:hover .icon {
+        transform: scale(1);
     }
 }
 
@@ -700,70 +751,8 @@
 @media screen and (max-width: 383px) {
     #header .content .left .buttons {
         flex-direction: column;
-        align-items: center; /* Center buttons horizontally */
     }
 }
-
-@media screen and (max-width: 1361px) {
-    #header .content .left .buttons {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center horizontally */
-        gap: 20px;
-    }
-
-    #header .content .left .buttons .copy-ip,
-    #header .content .left .buttons .how-to-join {
-        width: auto; /* Remove width constraint to allow content to determine width */
-    }
-
-    /* Adjustments for server statistics */
-    #header .content .right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        height: 100%;
-    }
-
-    #header .content .right .stats {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        align-items: center; /* Center horizontally */
-    }
-
-    #header .content .right .stats .stat {
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-        justify-content: center;
-        align-items: center;
-        text-align: center; /* Center text horizontally */
-    }
-
-    /* Adjustments for server statistics icons */
-    #header .content .right .stats .stat .icon {
-        border-radius: 5px;
-        background: #35094e;
-        padding: 10px;
-        transition: .2s ease-in-out;
-    }
-
-    #header .content .right .stats .stat .icon i {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        position: relative;
-        background: var(--main-color);
-        color: var(--white-color);
-        border-radius: 5px;
-    }
-}
-
 
 /*About us*/
 @media screen and (max-width: 1551px) {
