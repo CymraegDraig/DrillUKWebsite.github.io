@@ -7,17 +7,17 @@ const config = {
     },
 
     atGroupsDefaultColors: {
-        Leaders: "rgba(255, 3, 3, 1)",
+        Leadership:  "rgba(255, 3, 3, 1)",
         Developers: "rgba(230, 83, 0, 0.5)",
-        Management: "rgba(0, 255, 145, 0.5)",
-        SnrAdmin: "rgba(11, 175, 255, 0.5)",
-        Admin: "rgba(11, 175, 255, 0.5)",
-        SnrModerator: "rgba(11, 175, 255, 0.5)",
-        Moderator: "rgba(11, 175, 255, 0.5)",
-        trialMod: "rgba(11, 175, 255, 0.5)",
+        Managers: "rgba(0, 255, 145, 0.5)",
+        SeniorAdmins: "rgba(11, 175, 255, 0.5)",
+        Admins: "rgba(11, 175, 255, 0.5)",
+        SeniorModerators: "rgba(11, 175, 255, 0.5)",
+        Moderators: "rgba(11, 175, 255, 0.5)",
+        TrialModerators: "rgba(11, 175, 255, 0.5)",
     },
     staffTeamPage: {
-        Leaders: [
+        Leadership: [
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
@@ -75,13 +75,7 @@ const config = {
                 rankColor: ""
             }
         ],
-        Management: [
-            {
-                inGameName: "DavidUGUK",
-                rank: "Head of Organisation",
-                skinUrlOrPathToFile: "images/Staff/David.png",
-                rankColor: ""
-            },
+        Managers: [
             {
                 inGameName: "Malia",
                 rank: "Head of Staff",
@@ -92,6 +86,18 @@ const config = {
                 inGameName: "AlmightyBizzle",
                 rank: "Head of Staff",
                 skinUrlOrPathToFile: "images/Staff/Bizzle.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "DavidUGUK",
+                rank: "Head of Organisation",
+                skinUrlOrPathToFile: "images/Staff/David.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Slaxie",
+                rank: "Gang Liasion Manager",
+                skinUrlOrPathToFile: "images/Staff/Slaxie.png",
                 rankColor: ""
             },
             {
@@ -106,20 +112,8 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/Drazo.png",
                 rankColor: ""
             },
-            {
-                inGameName: "Slaxie",
-                rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/Slaxie.png",
-                rankColor: ""
-            },
         ],
-        SnrAdmin: [
-            {
-                inGameName: "Trix",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Trix.png",
-                rankColor: ""
-            },
+        SeniorAdmins: [
             {
                 inGameName: "Alpha Demon",
                 rank: "Senior Admin",
@@ -151,7 +145,7 @@ const config = {
                 rankColor: ""
             }
         ],
-        Admin: [
+        Admins: [
             {
                 inGameName: "Baldy P",
                 rank: "Admin",
@@ -171,7 +165,7 @@ const config = {
                 rankColor: ""
             },
         ],
-        SnrModerator: [
+        SeniorModerators: [
             {
                 inGameName: "Banksy",
                 rank: "Senior Moderator",
@@ -209,17 +203,11 @@ const config = {
                 rankColor: ""
             },
         ],
-        Moderator: [
+        Moderators: [
             {
                 inGameName: "Draig",
                 rank: "Moderator",
                 skinUrlOrPathToFile: "images/Staff/Draig.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "ST4R_OPTIC",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/ST4R.png",
                 rankColor: ""
             },
             {
@@ -241,7 +229,7 @@ const config = {
                 rankColor: ""
             },
         ],
-        trialMod: [
+        TrialModerators: [
             {
                 inGameName: "Wheelybin",
                 rank: "Trial Moderator",
