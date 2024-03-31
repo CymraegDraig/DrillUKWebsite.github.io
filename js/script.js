@@ -129,7 +129,7 @@ const config = {
             {
                 inGameName: "Kyzerr",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Kyzerr.gif",
+                skinUrlOrPathToFile: "images/Staff/Kyzer.gif",
                 rankColor: ""
             },
             {
