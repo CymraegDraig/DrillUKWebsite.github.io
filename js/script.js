@@ -96,12 +96,6 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Slaxie",
-                rank: "Gang Liasion Manager",
-                skinUrlOrPathToFile: "images/Staff/Slaxie2.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Momo",
                 rank: "Community Manager",
                 skinUrlOrPathToFile: "images/Staff/Momo2.png",
@@ -115,6 +109,12 @@ const config = {
             },
         ],
         SeniorAdmins: [
+            {
+                inGameName: "Slaxie",
+                rank: "Senior Admin",
+                skinUrlOrPathToFile: "images/Staff/Slaxie2.png",
+                rankColor: ""
+            },
             {
                 inGameName: "Alpha Demon",
                 rank: "Senior Admin",
