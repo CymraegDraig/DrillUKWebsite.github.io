@@ -401,7 +401,7 @@ const setDataFromConfigToHtml = async () => {
 
     let locationPathname = location.pathname;
 
-    if(locationPathname == "/" || locationPathname.includes("rules")) {
+    if(locationPathname == "/" || locationPathname.includes("fivem-semi")) {
         copyIp();
         /*Set config data to header*/
         serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
