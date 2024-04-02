@@ -410,7 +410,7 @@ const setDataFromConfigToHtml = async () => {
     } else if(locationPathname.includes("rules")) {
         copyIp();
     }
-    else if(locationPathname.includes("staff-team")) {
+    else if(locationPathname.includes("semi-staff")) {
         for (let team in config.staffTeamPage) {
             const atContent = document.querySelector(".at-content");
             

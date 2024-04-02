@@ -1,9 +1,9 @@
 const config = {
     serverInfo: {
-        serverLogoImageFileName: "afterdarkLogo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "AfterDark", /*Server name*/
-        serverIp: "fivem.afterdark.uk", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
-        serverIp2: "DrillUK | Afterdark", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        serverLogoImageFileName: "dayzLogo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
+        serverName: "Drill-UK | DayZ", /*Server name*/
+        serverIp: "dayz.drilluk.uk", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        serverIp2: "DrillUK | DayZ", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         discordServerID: "1033780064996827227" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
@@ -52,115 +52,31 @@ const config = {
         ],
         Developers: [
             {
-                inGameName: "Ghost",
+                inGameName: "Enter Name",
                 rank: "Developer",
                 skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
-            {
-                inGameName: "ST4R_OPTIC",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Clarky",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Trix",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            }
         ],
         Managers: [
             {
-                inGameName: "Malia",
-                rank: "Head of Staff",
-                skinUrlOrPathToFile: "images/Staff/Malia2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "AlmightyBizzle",
-                rank: "Head of Staff",
-                skinUrlOrPathToFile: "images/Staff/Bizzle2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "DavidUGUK",
-                rank: "Head of Organisation",
-                skinUrlOrPathToFile: "images/Staff/David2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Momo",
-                rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/Momo2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Jacob Drazo",
-                rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/Drazo2.png",
+                inGameName: "Enter Name",
+                rank: "Enter Rank",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
         ],
         SeniorAdmins: [
             {
-                inGameName: "Slaxie",
+                inGameName: "Enter Name",
                 rank: "Senior Admin",
                 skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
-            {
-                inGameName: "Alpha Demon",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Alpha2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Hodges",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Hodges2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Kyzerr",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Kitty",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Vexuix",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Vexuix2.png",
-                rankColor: ""
-            }
         ],
         Admins: [
             {
-                inGameName: "Baldy P",
-                rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Jeffries",
-                rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "SK",
+                inGameName: "Enter Name",
                 rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
@@ -168,37 +84,7 @@ const config = {
         ],
         SeniorModerators: [
             {
-                inGameName: "Banksy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Banksy2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Hitchy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Joeyy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Joeyy2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "JS",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Tommy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Tommy2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "X",
+                inGameName: "Enter Name",
                 rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
@@ -206,68 +92,20 @@ const config = {
         ],
         Moderators: [
             {
-                inGameName: "Draig",
+                inGameName: "Enter Name",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/Draig.gif",
-                rankColor: ""
-            },
-            {
-                inGameName: "KC",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/KC2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Spicy",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Young Prodigy",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/Corben2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.gif",
                 rankColor: ""
             },
         ],
         TrialModerators: [
             {
-                inGameName: "Wheelybin",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Wheelybin2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Tobs",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Tobs2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Coin Flip",
+                inGameName: "Enter Name",
                 rank: "Trial Moderator",
                 skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
-            {
-                inGameName: "Kev",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Kev2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Welshboy",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Welshboy2.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Bonesy",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
-                rankColor: ""
-            },
-        ]
+        ],
     },
 }
 
@@ -410,7 +248,7 @@ const setDataFromConfigToHtml = async () => {
     } else if(locationPathname.includes("rules")) {
         copyIp();
     }
-    else if(locationPathname.includes("staff-team")) {
+    else if(locationPathname.includes("dayz-team")) {
         for (let team in config.staffTeamPage) {
             const atContent = document.querySelector(".at-content");
             
