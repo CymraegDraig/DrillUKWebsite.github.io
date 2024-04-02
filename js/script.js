@@ -226,7 +226,7 @@ const config = {
             {
                 inGameName: "Young Prodigy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/Corben2.png",
                 rankColor: ""
             },
         ],
