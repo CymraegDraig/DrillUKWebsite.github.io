@@ -22,7 +22,7 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "images/Staff/MB.png",
+                skinUrlOrPathToFile: "images/Staff/Fivem/MB.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
@@ -200,7 +200,7 @@ const config = {
             {
                 inGameName: "X",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/x.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/X.png",
                 rankColor: ""
             },
         ],
