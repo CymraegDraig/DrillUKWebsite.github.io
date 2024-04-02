@@ -22,31 +22,31 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "images/Staff/MB2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/MB2.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
                 inGameName: "Spartan",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Stevie",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/Stevie2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Stevie2.png",
                 rankColor: ""
             },
             {
                 inGameName: "UKTriggs",
                 rank: "General Manager",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "SL0TH",
                 rank: "Head of Development",
-                skinUrlOrPathToFile: "images/Staff/Sloth2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Sloth2.png",
                 rankColor: ""
             },
         ],
@@ -54,7 +54,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Developer",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -62,7 +62,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Enter Rank",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -70,7 +70,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -78,7 +78,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -86,7 +86,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -94,7 +94,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.gif",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.gif",
                 rankColor: ""
             },
         ],
@@ -102,7 +102,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
