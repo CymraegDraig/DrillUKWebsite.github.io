@@ -22,7 +22,7 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "images/Staff/MB2.png",
+                skinUrlOrPathToFile: "images/Staff/MB.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
@@ -34,7 +34,7 @@ const config = {
             {
                 inGameName: "Stevie",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/Stevie2.png",
+                skinUrlOrPathToFile: "images/Staff/Stevie.png",
                 rankColor: ""
             },
             {
@@ -46,7 +46,7 @@ const config = {
             {
                 inGameName: "SL0TH",
                 rank: "Head of Development",
-                skinUrlOrPathToFile: "images/Staff/Sloth2.png",
+                skinUrlOrPathToFile: "images/Staff/Sloth.png",
                 rankColor: ""
             },
         ],
@@ -80,31 +80,31 @@ const config = {
             {
                 inGameName: "Malia",
                 rank: "Head of Staff",
-                skinUrlOrPathToFile: "images/Staff/Malia2.png",
+                skinUrlOrPathToFile: "images/Staff/Malia.png",
                 rankColor: ""
             },
             {
                 inGameName: "AlmightyBizzle",
                 rank: "Head of Staff",
-                skinUrlOrPathToFile: "images/Staff/Bizzle2.png",
+                skinUrlOrPathToFile: "images/Staff/Bizzle.png",
                 rankColor: ""
             },
             {
                 inGameName: "DavidUGUK",
                 rank: "Head of Organisation",
-                skinUrlOrPathToFile: "images/Staff/David2.png",
+                skinUrlOrPathToFile: "images/Staff/David.png",
                 rankColor: ""
             },
             {
                 inGameName: "Momo",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/Momo2.png",
+                skinUrlOrPathToFile: "images/Staff/Momo.png",
                 rankColor: ""
             },
             {
                 inGameName: "Jacob Drazo",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/Drazo2.png",
+                skinUrlOrPathToFile: "images/Staff/Drazo.png",
                 rankColor: ""
             },
         ],
@@ -118,13 +118,13 @@ const config = {
             {
                 inGameName: "Alpha Demon",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Alpha2.png",
+                skinUrlOrPathToFile: "images/Staff/Alpha.png",
                 rankColor: ""
             },
             {
                 inGameName: "Hodges",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Hodges2.png",
+                skinUrlOrPathToFile: "images/Staff/Hodges.png",
                 rankColor: ""
             },
             {
@@ -142,7 +142,7 @@ const config = {
             {
                 inGameName: "Vexuix",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Vexuix2.png",
+                skinUrlOrPathToFile: "images/Staff/Vexuix.png",
                 rankColor: ""
             }
         ],
@@ -170,7 +170,7 @@ const config = {
             {
                 inGameName: "Banksy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Banksy2.png",
+                skinUrlOrPathToFile: "images/Staff/Banksy.png",
                 rankColor: ""
             },
             {
@@ -182,7 +182,7 @@ const config = {
             {
                 inGameName: "Joeyy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Joeyy2.png",
+                skinUrlOrPathToFile: "images/Staff/Joeyy.png",
                 rankColor: ""
             },
             {
@@ -194,13 +194,13 @@ const config = {
             {
                 inGameName: "Tommy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Tommy2.png",
+                skinUrlOrPathToFile: "images/Staff/Tommy.png",
                 rankColor: ""
             },
             {
                 inGameName: "X",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/x.png",
                 rankColor: ""
             },
         ],
@@ -214,7 +214,7 @@ const config = {
             {
                 inGameName: "KC",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/KC2.png",
+                skinUrlOrPathToFile: "images/Staff/KC.png",
                 rankColor: ""
             },
             {
@@ -226,7 +226,7 @@ const config = {
             {
                 inGameName: "Young Prodigy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/Corben2.png",
+                skinUrlOrPathToFile: "images/Staff/Corben.png",
                 rankColor: ""
             },
         ],
@@ -234,13 +234,13 @@ const config = {
             {
                 inGameName: "Wheelybin",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Wheelybin2.png",
+                skinUrlOrPathToFile: "images/Staff/Wheelybin.png",
                 rankColor: ""
             },
             {
                 inGameName: "Tobs",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Tobs2.png",
+                skinUrlOrPathToFile: "images/Staff/Tobs.png",
                 rankColor: ""
             },
             {
@@ -252,13 +252,13 @@ const config = {
             {
                 inGameName: "Kev",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Kev2.png",
+                skinUrlOrPathToFile: "images/Staff/Kev.png",
                 rankColor: ""
             },
             {
                 inGameName: "Welshboy",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Welshboy2.png",
+                skinUrlOrPathToFile: "images/Staff/Welshboy.png",
                 rankColor: ""
             },
             {
