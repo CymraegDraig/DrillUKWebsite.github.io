@@ -401,7 +401,6 @@ const setDataFromConfigToHtml = async () => {
 
     let locationPathname = location.pathname;
 
-    if(locationPathname == "/" || locationPathname.includes("fivem"))
     if(locationPathname == "/" || locationPathname.includes("index")) {
         copyIp();
         /*Set config data to header*/
