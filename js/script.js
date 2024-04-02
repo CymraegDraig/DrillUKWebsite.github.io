@@ -28,7 +28,7 @@ const config = {
             {
                 inGameName: "Spartan",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/Spartan2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -40,7 +40,7 @@ const config = {
             {
                 inGameName: "UKTriggs",
                 rank: "General Manager",
-                skinUrlOrPathToFile: "images/Staff/UKTriggs2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -54,25 +54,25 @@ const config = {
             {
                 inGameName: "Ghost",
                 rank: "Developer",
-                skinUrlOrPathToFile: "images/Staff/Ghost2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "ST4R_OPTIC",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/ST4R2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Clarky",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/Clarky2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Trix",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/Trix2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             }
         ],
@@ -112,7 +112,7 @@ const config = {
             {
                 inGameName: "Slaxie",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Slaxie2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -130,13 +130,13 @@ const config = {
             {
                 inGameName: "Kyzerr",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Kyzer.gif",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Kitty",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/Kitty2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -150,19 +150,19 @@ const config = {
             {
                 inGameName: "Baldy P",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/Baldy2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Jeffries",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/Jeffries2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "SK",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/SK2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -176,7 +176,7 @@ const config = {
             {
                 inGameName: "Hitchy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/Hitchy2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -188,7 +188,7 @@ const config = {
             {
                 inGameName: "JS",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/JS2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -200,7 +200,7 @@ const config = {
             {
                 inGameName: "X",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/X2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -220,13 +220,13 @@ const config = {
             {
                 inGameName: "Spicy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/Spicy2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
                 inGameName: "Young Prodigy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/Corben2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -246,7 +246,7 @@ const config = {
             {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Coinflip2.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
             {
@@ -264,7 +264,7 @@ const config = {
             {
                 inGameName: "Bonesy",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/Bonesy.png",
+                skinUrlOrPathToFile: "images/Staff/placeholder.png",
                 rankColor: ""
             },
         ]
