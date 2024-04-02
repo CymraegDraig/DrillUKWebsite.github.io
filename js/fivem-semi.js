@@ -22,7 +22,7 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "images/Staff/Fivem/MB.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/MB.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
