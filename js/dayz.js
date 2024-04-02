@@ -248,7 +248,7 @@ const setDataFromConfigToHtml = async () => {
     } else if(locationPathname.includes("rules")) {
         copyIp();
     }
-    else if(locationPathname.includes("dayz-team")) {
+    else if(locationPathname.includes("dayz-staff")) {
         for (let team in config.staffTeamPage) {
             const atContent = document.querySelector(".at-content");
             
