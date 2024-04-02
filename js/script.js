@@ -400,15 +400,8 @@ const setDataFromConfigToHtml = async () => {
     serverIp.innerHTML = config.serverInfo.serverIp;
 
     let locationPathname = location.pathname;
-
-    if(locationPathname == "/" || locationPathname.includes("fivem-semi")) {
-        copyIp();
-        /*Set config data to header*/
-        serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
-        discordOnlineUsers.innerHTML = await getDiscordOnlineUsers();
-        fivemOnlinePlayers.innerHTML = await getfivemOnlinePlayer();
-    }
-    if(locationPathname == "/" || locationPathname.includes("index")) {
+    
+    if(locationPathname === "/" || locationPathname.endsWith(".html")) {
         copyIp();
         /*Set config data to header*/
         serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
