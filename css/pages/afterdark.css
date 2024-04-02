@@ -2,10 +2,10 @@
 
 /*Header*/
 #header {
-    background: url("../../images/header-background.jpg") no-repeat fixed center;
+    background: url("../../images/afterdarkLogo2.png") no-repeat fixed center;
     min-width: 100%;
-    min-height: 800px;
-    height: 80vh;
+    min-height: 530px;
+    height: 50vh;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,76 +15,306 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    #header .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #header .content .info {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #header .content {
+        padding: 150px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    #header .content .info {
+        text-align: center;
+    }
+}
+
 #header .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 150px;
-    width: 100%;
-    height: 620px;
-    position: relative;
-}
-
-#header .content .left .ip-copied {
-    color: var(--green-color);
-    background: var(--ip-copied-background);
-    padding: 10px 20px;
-    width: fit-content;
-    border-radius: 5px;
-    font-size: 17px;
-    display: none;
-}
-
-#header .content .left .ip-copied.active {
-    display: flex;
-}
-
-#header .content .left .ip-copied.error {
-    background: var(--warning-background);
-    color: var(--red-color);
-}
-
-#header .content .left {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    width: 100%;
 }
 
-#header .content .left .server-name {
+#header .content .info {
     display: flex;
     flex-direction: column;
 }
 
-#header .content .left .server-name p {
+#header .content .info .fivem-server-ip,
+#header .content .info .title,
+#header .content .description {
     color: var(--white-color);
+    text-align: center;
+}
+
+#header .content .info .fivem-server-ip {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
 }
 
-#header .content .left .server-name h1 {
-    color: var(--main-color);
+#header .content .info .title {
     text-transform: uppercase;
     font-size: 65px;
     font-weight: 900;
 }
 
-#header .content .left .server-description {
-    color: var(--description-color);
+#header .content .info .title span {
+    color: var(--main-color);
+}
+
+#header .content .description {
     font-size: 18px;
     font-weight: 400;
     max-width: 700px;
     line-height: 1.6;
 }
 
-#header .content .left .buttons {
+/*Admin-Team*/
+#staff-team .content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+#staff-team .group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+#staff-team .group .rank-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white-color);
+    position: relative;
+}
+
+#staff-team .group .rank-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--main-color);
+}
+
+#staff-team .group .users {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Adjust the gap between users */
+}
+
+#staff-team .group .users .user {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Set a fixed width for each user */
+    flex-grow: 1; /* Allow the user to grow within the flex container */
+}
+
+#staff-team .group .users .user img {
+    width: 100%; /* Set the image width to 100% */
+    max-width: 150px; /* Set a max-width for the image */
+    height: auto; /* Let the height adjust according to the width */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#staff-team .group .users .user .name {
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.rank {
+    background: var(--default-rank-color);
+    align-items: center;
+}
+
+#staff-team .group .users .user .rank {
+    color: var(--white-color);
+    font-size: 17px;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+}
+
+.rank {
+    background: var(--default-rank-color);
+}
+
+/*Footer*/
+#footer {
+    background: var(--stats-background);
+}
+
+/*Responsive*/
+
+/*Header*/
+@media screen and (max-width: 1625px) {
+    #header .content {
+        padding: 150px 90px;
+    }
+}
+
+@media screen and (max-width: 1361px) {
+    #header .content {
+        flex-direction: column;
+        padding: 120px 90px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    #header .content {
+        padding: 150px 30px;
+    }
+
+    #header .content .info .fivem-server-ip {
+        font-size: 15px;
+    }
+
+    #header .content .info .title {
+        font-size: 40px;
+    }
+
+    #header .content .info .description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #header .content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header .content .info .title {
+        font-size: 30px;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 530px) {
+    #staff-team .group .users {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #staff-team .group .users .user {
+        width: calc(50% - 10px);
+        max-width: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #staff-team .group .users .user img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    #staff-team .group .users .user .name,
+    #staff-team .group .users .user .rank {
+        font-size: 14px;
+    }
+}
+
+/*Admin-Team*/
+@media screen and (max-width: 390px) {
+    #staff-team .group .users .user img {
+        max-width: 100%;
+    }
+
+    #staff-team .group .users .user .name {
+        font-size: 20px;
+    }
+}
+
+/*Rules*/
+@media screen and (max-width: 462px) {
+    #rules .warning {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+/*Server Join*/
+@media screen and (max-width: 380px) {
+    #join-server .content .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/*Server Join*/
+#join-server{
+    background: var(--stats-background);
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#join-server .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#join-server .content .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white-color);
+    position: relative;
+    text-align: center;
+}
+
+#join-server .content .section-title span {
+    color: var(--main-color);
+}
+
+#join-server .content .buttons {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-#header .content .left .buttons .copy-ip {
+#join-server .content .buttons .copy-ip {
     background: var(--copy-ip-button-background);
     border: 2px solid var(--main-color);
     border-radius: 3px;
@@ -96,11 +326,7 @@
     transition: 0.2s;
 }
 
-#header .content .left .buttons .copy-ip:hover {
-    opacity: 0.8;
-}
-
-#header .content .left .buttons .how-to-join {
+#join-server .content .buttons .join-discord {
     background: var(--how-to-join-button-background);
     border: 2px solid var(--description-color);
     border-radius: 3px;
@@ -110,721 +336,119 @@
     font-weight: 600;
     cursor: pointer;
     transition: 0.2s;
-    width: 100%;
 }
 
-#header .content .left .buttons .how-to-join:hover {
+#join-server .content .buttons .copy-ip:hover, #join-server .content .buttons .join-discord:hover {
     opacity: 0.8;
 }
 
-#header .content .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-#header .content .right .logo-img {
-    width: 256px;
-    transform: translatey(0px);
-    animation: float 4s ease-in-out infinite;
-}
-
-#header .content .right .stats {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    background: var(--stats-background);
-    padding: 20px;
-    border-radius: 5px;
-}
-
-#header .content .right .stats .stat {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-}
-
-#header .content .right .stats .stat .icon {
-    border-radius: 5px;
-    background: var(--stat-icon-background-2);
-    padding: 10px;
-    transition: .2s ease-in-out;
-}
-
-#header .content .right .stats .stat .icon i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    position: relative;
-    background: var(--main-color);
-    color: var(--white-color);
-    border-radius: 5px;
-}
-
-#header .content .right .stats .stat:hover .icon {
-    transform: scale(1.1);
-}
-
-#header .content .right .stats .stat .texts {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#header .content .right .stats .stat .texts h5 {
-    color: var(--white-color);
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 700;
-}
-
-#header .content .right .stats .stat .texts p {
-    color: var(--description-color);
-    font-size: 15px;
-    font-weight: 400;
-}
-
-#header .content .right .stats .stat .texts p span {
+#join-server .content .ip-copied {
     color: var(--green-color);
+    background: var(--ip-copied-background);
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 17px;
+    display: none;
 }
 
-/*About*/
-#about .content {
+#join-server .content .ip-copied.active {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
 }
 
-#about .content .left {
+#join-server .content .ip-copied.error {
+    background: var(--warning-background);
+    color: var(--red-color);
+}
+
+/*Admin-Team*/
+#staff-team .content {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
+    align-items: center;
 }
 
-#about .content .left .section-title {
+#staff-team .group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+#staff-team .group .rank-title {
     font-size: 30px;
     font-weight: 700;
     color: var(--white-color);
     position: relative;
 }
 
-#about .content .left .section-title::before {
-    content: "";
-    position: absolute;
-    bottom: -9px;
-    left: 0;
-    width: 150px;
-    height: 1px;
-    border-radius: 5px;
-    background: var(--description-color);
-}
-
-#about .content .left .section-title::after {
+#staff-team .group .rank-title::after {
     content: "";
     position: absolute;
     bottom: -10px;
     left: 0;
-    width: 50px;
+    width: 100%;
     height: 3px;
     border-radius: 5px;
     background: var(--main-color);
 }
 
-
-#about .content .left .about-us {
-    color: var(--description-color);
-    font-size: 17px;
-    max-width: 80%;
-    line-height: 1.6;
-}
-
-#about .content .right {
+#staff-team .group .users {
     display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-
-#about .content .right img {
-    width: auto;
-    max-height: 250px;
-    position: relative;
-    z-index: 1;
-    right: 100px;
-}
-
-#about .content .right .img-background {
-    position: absolute;
-    width: 210px;
-    height: calc(100% - 40px);
-    border-radius: 40px 3px;
-    background: var(--main-color);
-    z-index: 0;
-    bottom: 5px;
-
-}
-
-/*Mini games*/
-#minigames {
-    background: var(--stats-background);
-}
-
-#minigames .content {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-#minigames .content .game {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
-
-#minigames .content .game:nth-child(even) img{
-    order: 1;
-}
-
-#minigames .content .game:nth-child(even) img:hover {
-    transform: rotate(2deg);
-}
-
-#minigames .content .game img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 40px 3px;
-    transition: 0.2s;
-}
-
-#minigames .content .game img:hover {
-    transform: rotate(-1deg);
-}
-
-#minigames .content .game .info {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-#minigames .content .game .info .section-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--white-color);
-    position: relative;
-}
-
-#minigames .content .game .info .section-title::before {
-    content: "";
-    position: absolute;
-    bottom: -9px;
-    left: 0;
-    width: 150px;
-    height: 1px;
-    border-radius: 5px;
-    background: var(--description-color);
-}
-
-#minigames .content .game .info .section-title::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 50px;
-    height: 3px;
-    border-radius: 5px;
-    background: var(--main-color);
-}
-
-#minigames .content .game .info .game-description {
-    color: var(--description-color);
-    font-size: 17px;
-    line-height: 1.6;
-}
-
-#minigames .content .game .info .game-description ul {
-    padding: 10px 0 0 40px;
-}
-
-/*Discord*/
-#discord {
-    background: url("../../images/header-background.jpg") no-repeat fixed center;
-    min-width: 100%;
-    height: 100%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    z-index: 0;
-    display: flex;
-    align-items: center;
-}
-
-#discord .content {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 40px; /* Adjust the gap between users */
 }
 
-#discord .content .section-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--white-color);
-    position: relative;
-    text-align: center;
-}
-
-#discord .content .section-title span {
-    color: var(--main-color);
-}
-
-#discord .content .join-discord {
-    background: var(--copy-ip-button-background);
-    border: 2px solid var(--main-color);
-    border-radius: 3px;
-    padding: 10px 30px;
-    color: var(--white-color);
-    font-size: 17px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-#discord .content .join-discord:hover {
-    opacity: 0.8;
-}
-
-#discord .content .join-discord a {
-    text-decoration: none;
-    color: var(--white-color);
-}
-
-/*Vote*/
-#vote .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-#vote .content .info {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    flex: 1;
-}
-
-#vote .content .info .section-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--white-color);
-    position: relative;
-}
-
-#vote .content .info .section-title::before {
-    content: "";
-    position: absolute;
-    bottom: -9px;
-    left: 0;
-    width: 150px;
-    height: 1px;
-    border-radius: 5px;
-    background: var(--description-color);
-}
-
-#vote .content .info .section-title::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 50px;
-    height: 3px;
-    border-radius: 5px;
-    background: var(--main-color);
-}
-
-
-#vote .content .info .section-description {
-    color: var(--description-color);
-    font-size: 17px;
-    max-width: 80%;
-    line-height: 1.6;
-}
-
-#vote .content .links {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
-}
-
-#vote .content .links .url {
-    text-decoration: none;
-}
-
-#vote .content .links .url:hover .link .link-description .icon {
-    transform: scale(1.1);
-}
-
-#vote .content .links .link {
+#staff-team .group .users .user {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: var(--stats-background);
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Set a fixed width for each user */
+    flex-grow: 1; /* Allow the user to grow within the flex container */
 }
 
-#vote .content .links .link h5 {
+#staff-team .group .users .user img {
+    width: 100%; /* Set the image width to 100% */
+    max-width: 150px; /* Set a max-width for the image */
+    height: auto; /* Let the height adjust according to the width */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#staff-team .group .users .user .name {
     color: var(--white-color);
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
 }
 
-#vote .content .links .link .link-description {
-    display: flex;
-    flex-direction: row;
+.rank {
+    background: var(--default-rank-color);
     align-items: center;
-    gap: 50px;
 }
 
-#vote .content .links .link .link-description .description {
-    color: var(--description-color);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.6;
-}
-
-#vote .content .links .link .link-description .icon {
-    border-radius: 5px;
-    background: var(--stat-icon-background-2);
-    padding: 10px;
-    transition: 0.2s ease-in-out;
-}
-
-#vote .content .links .link .link-description .icon i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    position: relative;
-    background: var(--main-color);
-    color: var(--white-color);
-    border-radius: 5px;
-}
-
-/*FAQ*/
-#faq {
-    background: var(--stats-background);
-}
-
-#faq .content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#faq .content .info {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-#faq .content .info .section-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--white-color);
-    position: relative;
-}
-
-#faq .content .info .section-title::before {
-    content: "";
-    position: absolute;
-    bottom: -9px;
-    left: 0;
-    width: 150px;
-    height: 1px;
-    border-radius: 5px;
-    background: var(--description-color);
-}
-
-#faq .content .info .section-title::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 50px;
-    height: 3px;
-    border-radius: 5px;
-    background: var(--main-color);
-}
-
-#faq .content .info .section-title span {
-    color: var(--main-color);
-}
-
-#faq .content .info .section-description {
-    color: var(--description-color);
-    font-size: 17px;
-    line-height: 1.6;
-    max-width: 70%;
-}
-
-#faq .content .accordion {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#faq .content .accordion .accordion-item {
-    background: var(--stats-background);
-    border-radius: 5px;
-}
-
-#faq .content .accordion .accordion-item .accordion-item-header {
-    padding: 20px 50px 20px 20px;
-    line-height: 1.6;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
+#staff-team .group .users .user .rank {
     color: var(--white-color);
     font-size: 17px;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
 }
 
-#faq .content .accordion .accordion-item .accordion-item-header::after {
-    content: "\002B";
-    font-size: 20px;
-    position: absolute;
-    right: 20px;
+.rank {
+    background: var(--default-rank-color);
 }
 
-#faq .content .accordion .accordion-item .accordion-item-header.active::after {
-    content: "\2212";
-}
-
-#faq .content .accordion .accordion-item .accordion-item-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.2s ease-in-out;
-}
-
-#faq .content .accordion .accordion-item .accordion-item-body .accordion-item-body-content {
-    padding: 20px;
-    line-height: 1.6;
-    border-top: 1px solid var(--stats-background);
-    color: var(--description-color);
-}
-
-/*Animations*/
-@keyframes float {
-    0% {
-        transform: translatey(0px);
-    }
-    50% {
-        transform: translatey(-20px);
-    }
-    100% {
-        transform: translatey(0px);
-    }
-}
-
-/*Responsive*/
-/*Header*/
-@media screen and (max-width: 1625px) {
-    #header .content {
-        padding: 150px 90px;
-        align-items: start;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1361px) {
-    #header .content {
-        flex-direction: column;
-        padding: 120px 90px;
-        height: 100%;
-        gap: 60px;
-    }
-
-    #header .content .left {
-        gap: 30px;
-        justify-content: left;
-    }
-
-    #header .content .right .stats {
-        width: fit-content;
-    }
-
-    #header .content .right .logo-img {
-        display: none;
-    }
-
-    @media screen and (min-height: 745px) {
-        #header .content {
-            justify-content: center;
-        }
-
-        #header .content .left {
-            height: fit-content;
-            justify-content: center;
-            gap: 30px;
-        }
-
-        #header .content .right {
-            height: fit-content;
-            justify-content: center;
-            gap: 30px;
-        }
-    }
-}
-
-@media screen and (max-width: 819px) {
-    #header .content {
-        padding: 150px 30px;
-    }
-
-    #header .content .left .server-name p {
-        font-size: 15px;
-    }
-
-    #header .content .left .server-name h1 {
-        font-size: 40px;
-    }
-
-    #header .content .left .server-description {
-        font-size: 16px;
-    }
-
-    #header .content .right {
-        width: 100%;
-    }
-
-    #header .content .right .stats {
-        width: 100%;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (max-width: 621px) {
-    #header .content .right .stats {
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-    }
-
-    #header .content .right .stats .stat:hover .icon {
-        transform: scale(1);
-    }
-}
-
-@media screen and (max-width: 447px) {
-    #header .content .left .server-name h1 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 383px) {
-    #header .content .left .buttons {
-        flex-direction: column;
-    }
-}
-
-/*About us*/
-@media screen and (max-width: 1551px) {
-    #about .content .left .about-us {
-        max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 1183px) {
-    #about .content {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    #about .content .left .about-us {
-        max-width: 100%;
-    }
-
-    #about .content .right img {
-        margin: auto;
-        right: 0;
-    }
-
-    #about .content .right .img-background {
-        width: 100%;
-    }
-}
-
-/*Mini games*/
-@media screen and (max-width: 1141px) {
-    #minigames .content .game {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    #minigames .content .game:nth-child(even) img{
-        order: 0;
-    }
-}
-
-/*Vote*/
-@media screen and (max-width: 1313px) {
-    #vote .content .links {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 909px) {
-    #vote .content .links {
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    #vote .content .links .link {
-        max-width: 300px;
-    }
-
-    #vote .content {
-        flex-direction: column;
-        gap: 40px;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    #vote .content .links .link {
-        max-width: 100%;
-    }
-}
-
-/*FAQ*/
-@media screen and (max-width: 6729px) {
-    #faq .content .info .section-description {
-        max-width: 100%;
-    }
+/*Footer*/
+#footer {
+    background: var(--stats-background);
 }
