@@ -112,7 +112,7 @@ const config = {
             {
                 inGameName: "Slaxie",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Slaxie.png",
                 rankColor: ""
             },
             {
@@ -136,7 +136,7 @@ const config = {
             {
                 inGameName: "Kitty",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Kitty.png",
                 rankColor: ""
             },
             {
@@ -188,7 +188,7 @@ const config = {
             {
                 inGameName: "JS",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/JS.png",
                 rankColor: ""
             },
             {
@@ -401,7 +401,7 @@ const setDataFromConfigToHtml = async () => {
 
     let locationPathname = location.pathname;
 
-    if(locationPathname == "/" || locationPathname.includes("index")) {
+    if(locationPathname == "/" || locationPathname.includes("html")) {
         copyIp();
         /*Set config data to header*/
         serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
