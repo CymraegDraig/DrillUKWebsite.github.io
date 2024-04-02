@@ -200,7 +200,7 @@ const config = {
             {
                 inGameName: "X",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/x.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/X.png",
                 rankColor: ""
             },
         ],
