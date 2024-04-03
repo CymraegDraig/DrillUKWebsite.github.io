@@ -150,7 +150,7 @@ const config = {
             {
                 inGameName: "Baldy P",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Baldy.png",
                 rankColor: ""
             },
             {
