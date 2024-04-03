@@ -156,7 +156,7 @@ const config = {
             {
                 inGameName: "Jeffries",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Jeffries.png",
                 rankColor: ""
             },
             {
@@ -176,7 +176,7 @@ const config = {
             {
                 inGameName: "Hitchy",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Hitchy.png",
                 rankColor: ""
             },
             {
@@ -220,7 +220,7 @@ const config = {
             {
                 inGameName: "Spicy",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Spicy.png",
                 rankColor: ""
             },
             {
