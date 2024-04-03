@@ -22,31 +22,31 @@ const config = {
             {
                 inGameName: "MB Playz",
                 rank: "Founder",
-                skinUrlOrPathToFile: "images/Staff/DayZ/MB2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/MB.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
                 inGameName: "Spartan",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Spartan.png",
                 rankColor: ""
             },
             {
                 inGameName: "Stevie",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/DayZ/Stevie2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Stevie.png",
                 rankColor: ""
             },
             {
                 inGameName: "UKTriggs",
                 rank: "General Manager",
-                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/UKTriggs.png",
                 rankColor: ""
             },
             {
                 inGameName: "SL0TH",
                 rank: "Head of Development",
-                skinUrlOrPathToFile: "images/Staff/DayZ/Sloth2.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Sloth.png",
                 rankColor: ""
             },
         ],
@@ -60,9 +60,9 @@ const config = {
         ],
         Managers: [
             {
-                inGameName: "Enter Name",
-                rank: "Enter Rank",
-                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
+                inGameName: "Alpha Demon",
+                rank: "Head of Staff",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Alpha.png",
                 rankColor: ""
             },
         ],
@@ -94,7 +94,7 @@ const config = {
             {
                 inGameName: "Enter Name",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.gif",
+                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
             },
         ],
@@ -239,7 +239,7 @@ const setDataFromConfigToHtml = async () => {
 
     let locationPathname = location.pathname;
 
-    if(locationPathname === "/" || locationPathname.endsWith(".html")) {
+    if(locationPathname === "/" || locationPathname.endsWith("dayz.html")) {
         copyIp();
         /*Set config data to header*/
         serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
