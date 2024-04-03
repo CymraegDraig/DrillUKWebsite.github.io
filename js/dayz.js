@@ -4,7 +4,7 @@ const config = {
         serverName: "Drill-UK | DayZ", /*Server name*/
         serverIp: "dayz.drilluk.uk", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         serverIp2: "DrillUK | DayZ", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
-        discordServerID: "1033780064996827227" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
+        discordServerID: "1213434682306334780" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
     atGroupsDefaultColors: {
@@ -44,15 +44,15 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "SL0TH",
+                inGameName: "SaucyCross",
                 rank: "Head of Development",
-                skinUrlOrPathToFile: "images/Staff/DayZ/Sloth.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/Saucy.png",
                 rankColor: ""
             },
         ],
         Developers: [
             {
-                inGameName: "Enter Name",
+                inGameName: "ENTER NAME",
                 rank: "Developer",
                 skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
                 rankColor: ""
@@ -63,6 +63,12 @@ const config = {
                 inGameName: "Alpha Demon",
                 rank: "Head of Staff",
                 skinUrlOrPathToFile: "images/Staff/DayZ/Alpha.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "DavidUGUK",
+                rank: "Head of Organisation",
+                skinUrlOrPathToFile: "images/Staff/DayZ/David.png",
                 rankColor: ""
             },
         ],
@@ -92,9 +98,15 @@ const config = {
         ],
         Moderators: [
             {
-                inGameName: "Enter Name",
+                inGameName: "jlord",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/DayZ/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/DayZ/jlord.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "MedicKillz",
+                rank: "Moderator",
+                skinUrlOrPathToFile: "images/Staff/DayZ/MedicKillz.png",
                 rankColor: ""
             },
         ],

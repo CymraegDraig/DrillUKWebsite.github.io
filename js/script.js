@@ -2,7 +2,7 @@ const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Drill-UK", /*Server name*/
-        serverIp: "fivem.drilluk.uk", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        serverIp: "Drill-UK", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         serverIp2: "DrillUK | Afterdark", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         discordServerID: "1033780064996827227" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
