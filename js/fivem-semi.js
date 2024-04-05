@@ -69,12 +69,6 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky.png",
                 rankColor: ""
             },
-            {
-                inGameName: "Trix",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Trix.png",
-                rankColor: ""
-            }
         ],
         Managers: [
             {
@@ -110,6 +104,18 @@ const config = {
         ],
         SeniorAdmins: [
             {
+                inGameName: "Trix",
+                rank: "Senior Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Trix.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Kitty",
+                rank: "Senior Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kitty.png",
+                rankColor: ""
+            },
+            {
                 inGameName: "Slaxie",
                 rank: "Senior Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Slaxie.png",
@@ -131,12 +137,6 @@ const config = {
                 inGameName: "Kyzerr",
                 rank: "Senior Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kyzerr.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Kitty",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kitty.png",
                 rankColor: ""
             },
             {
