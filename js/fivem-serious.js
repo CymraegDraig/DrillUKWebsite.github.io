@@ -54,25 +54,25 @@ const config = {
             {
                 inGameName: "Ghost",
                 rank: "Full-time Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Serious/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Ghost.png",
                 rankColor: ""
             },
             {
                 inGameName: "ST4R_OPTIC",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Serious/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/ST4R.png",
                 rankColor: ""
             },
             {
                 inGameName: "Clarky",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Serious/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky.png",
                 rankColor: ""
             },
             {
                 inGameName: "Trix",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Serious/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Trix.png",
                 rankColor: ""
             }
         ],
