@@ -90,12 +90,6 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Momo",
-                rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Momo.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Jacob Drazo",
                 rank: "Community Manager",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Drazo.png",
