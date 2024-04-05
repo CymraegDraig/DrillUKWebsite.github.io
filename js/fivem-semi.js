@@ -28,7 +28,7 @@ const config = {
             {
                 inGameName: "Spartan",
                 rank: "Co-Founder",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Spartan.png",
                 rankColor: ""
             },
             {
@@ -40,7 +40,7 @@ const config = {
             {
                 inGameName: "UKTriggs",
                 rank: "General Manager",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/UKTriggs.png",
                 rankColor: ""
             },
             {
@@ -53,7 +53,7 @@ const config = {
         Developers: [
             {
                 inGameName: "Ghost",
-                rank: "Developer",
+                rank: "Full-time Developer",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
                 rankColor: ""
             },
@@ -130,7 +130,7 @@ const config = {
             {
                 inGameName: "Kyzerr",
                 rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kyzerr.png",
                 rankColor: ""
             },
             {
@@ -246,7 +246,7 @@ const config = {
             {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coin.png",
                 rankColor: ""
             },
             {

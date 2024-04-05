@@ -53,7 +53,7 @@ const config = {
         Developers: [
             {
                 inGameName: "Ghost",
-                rank: "Developer",
+                rank: "Full-time Developer",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Serious/placeholder.png",
                 rankColor: ""
             },
