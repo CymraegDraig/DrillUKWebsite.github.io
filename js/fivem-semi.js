@@ -246,7 +246,7 @@ const config = {
             {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coin.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
                 rankColor: ""
             },
             {
