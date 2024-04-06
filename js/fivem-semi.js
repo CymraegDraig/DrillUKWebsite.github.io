@@ -162,12 +162,6 @@ const config = {
         ],
         SeniorModerators: [
             {
-                inGameName: "Banksy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Banksy.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Hitchy",
                 rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Hitchy.png",
@@ -197,18 +191,24 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/X.png",
                 rankColor: ""
             },
-        ],
-        Moderators: [
             {
-                inGameName: "Draig",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
+                inGameName: "Banksy",
+                rank: "Senior Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Banksy.png",
                 rankColor: ""
             },
+        ],
+        Moderators: [
             {
                 inGameName: "KC",
                 rank: "Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/KC.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Young Prodigy",
+                rank: "Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Corben.png",
                 rankColor: ""
             },
             {
@@ -218,17 +218,23 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Young Prodigy",
+                inGameName: "Draig",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Corben.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
                 rankColor: ""
             },
         ],
         TrialModerators: [
             {
-                inGameName: "Wheelybin",
+                inGameName: "Bonesy",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wheelybin.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Coin Flip",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
                 rankColor: ""
             },
             {
@@ -238,9 +244,9 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Coin Flip",
+                inGameName: "Wheelybin",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wheelybin.png",
                 rankColor: ""
             },
             {
@@ -253,12 +259,6 @@ const config = {
                 inGameName: "Welshboy",
                 rank: "Trial Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Welshboy.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Bonesy",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
                 rankColor: ""
             },
         ]
