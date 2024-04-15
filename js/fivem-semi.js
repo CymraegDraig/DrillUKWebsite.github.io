@@ -159,23 +159,15 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
                 rankColor: ""
             },
-        ],
-        SeniorModerators: [
-            {
-                inGameName: "Hitchy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Hitchy.png",
-                rankColor: ""
-            },
             {
                 inGameName: "Joeyy",
-                rank: "Senior Moderator",
+                rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Joeyy.png",
                 rankColor: ""
             },
             {
                 inGameName: "JS",
-                rank: "Senior Moderator",
+                rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/JS.png",
                 rankColor: ""
             },
@@ -183,6 +175,14 @@ const config = {
                 inGameName: "Tommy",
                 rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tommy.png",
+                rankColor: ""
+            },
+        ],
+        SeniorModerators: [
+            {
+                inGameName: "Hitchy",
+                rank: "Senior Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Hitchy.png",
                 rankColor: ""
             },
             {
@@ -195,6 +195,12 @@ const config = {
                 inGameName: "Banksy",
                 rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Banksy.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Draig",
+                rank: "Senior Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
                 rankColor: ""
             },
         ],
@@ -218,9 +224,27 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Draig",
+                inGameName: "Tobs",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tobs.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Wheelybin",
+                rank: "Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wheelybin.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Kev",
+                rank: "Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kev.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Welshboy",
+                rank: "Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Welshboy.png",
                 rankColor: ""
             },
         ],
@@ -235,30 +259,6 @@ const config = {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Tobs",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tobs.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Wheelybin",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wheelybin.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Kev",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kev.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Welshboy",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Welshboy.png",
                 rankColor: ""
             },
         ]
