@@ -2,7 +2,7 @@ const config = {
     serverInfo: {
         serverLogoImageFileName: "dayzLogo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Drill-UK | DayZ", /*Server name*/
-        serverIp: "dayz.drilluk.uk", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        serverIp: "drill-ukz.com", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         serverIp2: "DrillUK | DayZ", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
         discordServerID: "1213434682306334780" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
@@ -186,6 +186,7 @@ const getfivemOnlinePlayer = async () => {
         return "None";
     }
 }
+
 
 const getUuidByUsername = async (username) => {
     try {
