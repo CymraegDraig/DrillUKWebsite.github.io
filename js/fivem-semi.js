@@ -58,15 +58,15 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "ST4R_OPTIC",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/ST4R.png",
+                inGameName: "Ross",
+                rank: "Full-time Developer",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Ross.png",
                 rankColor: ""
             },
             {
                 inGameName: "Clarky",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky1.png",
                 rankColor: ""
             },
         ],
