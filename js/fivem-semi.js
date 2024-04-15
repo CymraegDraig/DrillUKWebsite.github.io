@@ -173,7 +173,7 @@ const config = {
             },
             {
                 inGameName: "Tommy",
-                rank: "Senior Moderator",
+                rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tommy.png",
                 rankColor: ""
             },
