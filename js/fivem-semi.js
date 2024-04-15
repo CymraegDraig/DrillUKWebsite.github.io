@@ -212,12 +212,6 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Young Prodigy",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Corben.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Spicy",
                 rank: "Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Spicy.png",
