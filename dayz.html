@@ -96,7 +96,7 @@
                         </div>
                         <div class="texts">
                             <h5 class="stat-title">DayZ Server</h5>
-                            <p>Current Players: <span id="totalPlayers">Loading...</span></p>
+                            <p>Current Players: <span id="playerCount">Loading...</span></p>
                         </div>                        
                     </div>
                 </div>
@@ -265,30 +265,30 @@
 
 
 <script>
-    // Function to update total players in HTML
-    function updateTotalPlayers(total) {
-      document.getElementById('totalPlayers').textContent = total;
-    }
-    
-    // Function to fetch total players from server and update HTML
-    function fetchTotalPlayers() {
-      fetch('https://servers-frontend.fivem.net/api/servers/single/e3r47a')
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => updateTotalPlayers(data.Data.clients))
-        .catch(error => console.error('Error fetching total players:', error));
-    }
-    
-    // Fetch total players initially when the page loads
-    document.addEventListener('DOMContentLoaded', fetchTotalPlayers);
+    // Function to fetch player count from Steam Web API
+    function getPlayerCount() {
+        // Replace 'YOUR_SERVER_IP' and 'YOUR_SERVER_PORT' with your DayZ server IP and port
+        const serverIP = '62.68.68.29';
+        const serverPort = '2302';
 
-    // Fetch total players every 5 seconds
-    setInterval(fetchTotalPlayers, 5000);
-  </script>
+        // Steam Web API URL to get server info
+        const steamAPIURL = `https://api.steampowered.com/IGameServersService/GetServerDetails/v1/?format=json&appid=221100&addr=${serverIP}:${serverPort}`;
+
+        fetch(steamAPIURL)
+            .then(response => response.json())
+            .then(data => {
+                const playerCount = data.response.players;
+                document.getElementById('playerCount').textContent = playerCount;
+            })
+            .catch(error => {
+                console.error('Error fetching player count:', error);
+                document.getElementById('playerCount').textContent = 'Error';
+            });
+    }
+
+    // Fetch player count when the page loads
+    window.onload = getPlayerCount;
+</script>
 
 <script src="js/dayz.js"></script>
 <script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
