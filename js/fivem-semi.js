@@ -255,6 +255,12 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
                 rankColor: ""
             },
+            {
+                inGameName: "Baldy",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Baldy2.png",
+                rankColor: ""
+            },
         ]
     },
 }
