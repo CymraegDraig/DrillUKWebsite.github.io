@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DrillUK Met / Cell Selection</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+<link rel="icon" href="images/drilluk.png" type="image/png"> <!-- Added favicon -->
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/pdbg.png'); /* Background image added */
+    background-size: cover; /* Adjusts the background image to cover the entire page */
+    background-position: center; /* Centers the background image */
+    color: white;
+    flex-direction: column; /* Added to align items vertically */
+  }
+
+  .cell-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .cell-text {
+    color: black;
+  }
+
+  .occupied {
+    background-color: red;
+  }
+
+  /* Added style for the image */
+  .logo {
+    margin-top: 20px; /* Adjust this value as needed */
+  }
+</style>
+</head>
+<body>
+
+<!-- Added the image with a class "logo" for styling -->
+<img src="images/CELLBOOKING.PNG" alt="Cell Booking" class="logo">
+
+<div class="cell-container">
+  <div class="cell" onclick="toggleCell(1)"><span class="cell-text">Cell 1</span></div>
+  <div class="cell" onclick="toggleCell(2)"><span class="cell-text">Cell 2</span></div>
+  <div class="cell" onclick="toggleCell(3)"><span class="cell-text">Cell 3</span></div>
+  <div class="cell" onclick="toggleCell(4)"><span class="cell-text">Cell 4</span></div>
+  <div class="cell" onclick="toggleCell(5)"><span class="cell-text">Cell 5</span></div>
+  <div class="cell" onclick="toggleCell(6)"><span class="cell-text">Cell 6</span></div>
+</div>
+
+<script>
+  // Array to keep track of cell occupancy
+  var occupied = [false, false, false, false, false, false];
+
+  // Function to toggle cell occupancy
+  function toggleCell(index) {
+    var cell = document.getElementsByClassName('cell')[index - 1];
+    if (occupied[index - 1]) {
+      cell.classList.remove('occupied');
+    } else {
+      cell.classList.add('occupied');
+    }
+    occupied[index - 1] = !occupied[index - 1];
+    // Save occupancy state to local storage
+    localStorage.setItem('occupiedCells', JSON.stringify(occupied));
+  }
+
+  // Load occupancy state from local storage
+  var storedOccupied = localStorage.getItem('occupiedCells');
+  if (storedOccupied) {
+    occupied = JSON.parse(storedOccupied);
+    for (var i = 0; i < occupied.length; i++) {
+      if (occupied[i]) {
+        document.getElementsByClassName('cell')[i].classList.add('occupied');
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
