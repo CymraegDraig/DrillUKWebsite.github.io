@@ -138,19 +138,19 @@ const config = {
                 rank: "Senior Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Vexuix.png",
                 rankColor: ""
-            }
+            },
+            {
+                inGameName: "Jeffries",
+                rank: "Senior Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Jeffries.png",
+                rankColor: ""
+            },
         ],
         Admins: [
             {
                 inGameName: "Baldy P",
                 rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Baldy.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Jeffries",
-                rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Jeffries.png",
                 rankColor: ""
             },
             {
@@ -203,14 +203,14 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
                 rankColor: ""
             },
-        ],
-        Moderators: [
             {
                 inGameName: "KC",
-                rank: "Moderator",
+                rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/KC.png",
                 rankColor: ""
             },
+        ],
+        Moderators: [
             {
                 inGameName: "Spicy",
                 rank: "Moderator",
