@@ -60,7 +60,7 @@ const config = {
             {
                 inGameName: "Ross",
                 rank: "Full-time Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Ross.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/ross.png",
                 rankColor: ""
             },
             {
@@ -259,12 +259,6 @@ const config = {
                 inGameName: "Coin Flip",
                 rank: "Trial Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Baldy",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Baldy2.png",
                 rankColor: ""
             },
         ]
