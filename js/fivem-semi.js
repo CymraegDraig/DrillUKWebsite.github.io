@@ -261,6 +261,30 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Coinflip.png",
                 rankColor: ""
             },
+            {
+                inGameName: "Lemon Mush",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Lemon.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Silckz",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Lewis.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Acid",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Acid.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "General",
+                rank: "Trial Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/General.png",
+                rankColor: ""
+            },
         ]
     },
 }
