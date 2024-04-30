@@ -94,10 +94,10 @@
                                 <i class="fa-solid fa-server"></i>
                             </div>
                             <div class="texts">
-                                <h5 class="stat-title">FiveM Server</h5>
+                                <h5 class="stat-title">DayZ Server</h5>
                                 <p>Current Players: <span id="totalPlayers">Loading...</span></p>
                             </div>                        
-                        </div>                    
+                        </div>                  
                     </div>
                 </div>
             </div>
@@ -264,30 +264,27 @@
 </body>
 
 <script>
-    // Fetch the player count from the DayZ server website
-function fetchPlayerCount() {
+    // Fetch the number of players from the specified URL
     fetch('https://dayz-servers.org/server/157550/')
         .then(response => response.text())
         .then(html => {
+            // Create a temporary element to parse the HTML response
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
-            const playerCountElement = doc.querySelector('.stat-number.discord-online-users');
-            const playerCount = playerCountElement ? playerCountElement.textContent : 'N/A';
-            updatePlayerCount(playerCount);
+
+            // Extract the number of players from the appropriate element
+            const playersElement = doc.querySelector('.players');
+            const playersText = playersElement.innerText.trim();
+            const players = playersText.split('/')[0].trim(); // Extracting the number of players
+
+            // Update the content of the span element with the number of players
+            document.getElementById('totalPlayers').textContent = players;
         })
         .catch(error => {
-            console.error('Error fetching player count:', error);
-            updatePlayerCount('Error');
+            console.error('Error fetching data:', error);
+            // In case of an error, display an appropriate message
+            document.getElementById('totalPlayers').textContent = 'Error fetching data';
         });
-}
-
-// Update the player count in the HTML
-function updatePlayerCount(count) {
-    document.getElementById('playerCount').textContent = count;
-}
-
-// Fetch player count on page load
-window.addEventListener('load', fetchPlayerCount);
 </script>
 <script src="js/dayz.js"></script>
 <script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
