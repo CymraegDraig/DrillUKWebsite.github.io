@@ -253,39 +253,32 @@
     </footer>
 </body>
 
-
-
 <script>
-    window.onload = function() {
-        // Function to fetch DayZ server player count
-        function getServerPlayerCount() {
-            const serverIP = '62.68.68.206';
-            const serverPort = '2302';
-    
-            fetch(`https://api.steampowered.com/IGameServersService/GetServerDetails/v1/?filter=\\addr\\${serverIP}:${serverPort}`)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.response && data.response.server) {
-                        const playerCount = data.response.server.players;
-                        document.getElementById('playerCount').innerText = playerCount;
-                    } else {
-                        document.getElementById('playerCount').innerText = 'N/A';
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching server player count:', error);
-                    document.getElementById('playerCount').innerText = 'Error';
-                });
-        }
-    
-        // Call the function initially
-        getServerPlayerCount();
-    
-        // Set interval to refresh player count every 5 minutes (300,000 milliseconds)
-        setInterval(getServerPlayerCount, 300000);
-    };
-    </script>
+    // Fetch the player count from the DayZ server website
+function fetchPlayerCount() {
+    fetch('https://dayz-servers.org/server/157550/')
+        .then(response => response.text())
+        .then(html => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const playerCountElement = doc.querySelector('.stat-number.discord-online-users');
+            const playerCount = playerCountElement ? playerCountElement.textContent : 'N/A';
+            updatePlayerCount(playerCount);
+        })
+        .catch(error => {
+            console.error('Error fetching player count:', error);
+            updatePlayerCount('Error');
+        });
+}
 
+// Update the player count in the HTML
+function updatePlayerCount(count) {
+    document.getElementById('playerCount').textContent = count;
+}
+
+// Fetch player count on page load
+window.addEventListener('load', fetchPlayerCount);
+</script>
 <script src="js/dayz.js"></script>
 <script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
 </html>
