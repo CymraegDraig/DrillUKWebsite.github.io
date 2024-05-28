@@ -145,6 +145,12 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Joeyy.png",
                 rankColor: ""
             },
+            {
+                inGameName: "JS",
+                rank: "Senior Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/JS.png",
+                rankColor: ""
+            },
         ],
         Admins: [
             {
@@ -160,9 +166,21 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "JS",
+                inGameName: "Draig",
                 rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/JS.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
+                rankColor: ""
+            },
+            {
+                inGameName: "Wilson",
+                rank: "Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wilson.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Tobs",
+                rank: "Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tobs.png",
                 rankColor: ""
             },
         ],
@@ -174,33 +192,9 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Banksy",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Banksy.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Draig",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
-                rankColor: ""
-            },
-            {
                 inGameName: "KC",
                 rank: "Senior Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/KC.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Wilson",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wilson.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Tobs",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tobs.png",
                 rankColor: ""
             },
         ],
