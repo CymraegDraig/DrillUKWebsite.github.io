@@ -78,6 +78,12 @@ const config = {
         ],
         Managers: [
             {
+                inGameName: "Malia ",
+                rank: "Head of Staff",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Malia.png",
+                rankColor: ""
+            },
+            {
                 inGameName: "AlmightyBizzle",
                 rank: "Head of Staff",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Bizzle.png",
