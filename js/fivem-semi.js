@@ -60,13 +60,13 @@ const config = {
             {
                 inGameName: "Ross",
                 rank: "Full-time Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/ross.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Ross.png",
                 rankColor: ""
             },
             {
                 inGameName: "Clarky",
                 rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky1.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky.png",
                 rankColor: ""
             },
             {
