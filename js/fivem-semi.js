@@ -69,12 +69,6 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Clarky.png",
                 rankColor: ""
             },
-            {
-                inGameName: "Trix",
-                rank: "Learning Developer",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Trix.png",
-                rankColor: ""
-            },
         ],
         Managers: [
             {
@@ -96,9 +90,15 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Jacob Drazo",
+                inGameName: "Tommy",
                 rank: "Community Manager",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Drazo.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tommy.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Vexuix",
+                rank: "Community Manager",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Vexuix.png",
                 rankColor: ""
             },
         ],
@@ -116,27 +116,9 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Kyzerr",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kyzerr.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Vexuix",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Vexuix.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Jeffries",
                 rank: "Senior Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Jeffries.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Tommy",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tommy.png",
                 rankColor: ""
             },
             {
@@ -160,21 +142,9 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "SK",
-                rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/SK.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Draig",
                 rank: "Admin",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Draig.gif",
-                rankColor: ""
-            },
-            {
-                inGameName: "Wilson",
-                rank: "Admin",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Wilson.png",
                 rankColor: ""
             },
             {
@@ -183,14 +153,14 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Tobs.png",
                 rankColor: ""
             },
-        ],
-        SeniorModerators: [
             {
-                inGameName: "X",
-                rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/X.png",
+                inGameName: "Kuzii",
+                rank: "Admin",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Kuzii.png",
                 rankColor: ""
             },
+        ],
+        SeniorModerators: [
             {
                 inGameName: "Turkey Teef",
                 rank: "Senior Moderator",
@@ -198,29 +168,35 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Kuzii",
+                inGameName: "General",
                 rank: "Senior Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/General.png",
+                rankColor: ""
+            },
+            {
+                inGameName: "Silckz",
+                rank: "Senior Moderator",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Lewis.png",
                 rankColor: ""
             },
         ],
         Moderators: [
             {
-                inGameName: "Spicy",
+                inGameName: "CP",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Spicy.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/CP.png",
                 rankColor: ""
             },
             {
-                inGameName: "Lemon Mush",
+                inGameName: "Burk",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Lemon.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
                 rankColor: ""
             },
             {
-                inGameName: "Silckz",
+                inGameName: "Rylie",
                 rank: "Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Lewis.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Rylie.png",
                 rankColor: ""
             },
         ],
@@ -232,39 +208,15 @@ const config = {
                 rankColor: ""
             },
             {
-                inGameName: "Acid",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Acid.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "General",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/General.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "CP",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
-                rankColor: ""
-            },
-            {
                 inGameName: "Ethan",
                 rank: "Trial Moderator",
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
                 rankColor: ""
             },
             {
-                inGameName: "Burk",
+                inGameName: "Lewis",
                 rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
-                rankColor: ""
-            },
-            {
-                inGameName: "Rylie",
-                rank: "Trial Moderator",
-                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/placeholder.png",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Brickham.png",
                 rankColor: ""
             },
         ]
