@@ -219,6 +219,12 @@ const config = {
                 skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Brickham.png",
                 rankColor: ""
             },
+            {
+                inGameName: "AlexisTexas",
+                rank: "Discord Support",
+                skinUrlOrPathToFile: "images/Staff/FiveM/Semi/Alexis.png",
+                rankColor: ""
+            },
         ]
     },
 }
